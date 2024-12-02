@@ -10,7 +10,7 @@ public class DayOne{
     int count = 0;
     int i = 0;
     try{
-      File file = new File("input.txt");
+      File file = new File("/workspaces/advent-of-code-2024/DayOne/input.txt");
       Scanner scanner = new Scanner(file);
 
       while(scanner.hasNextInt()){
